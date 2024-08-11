@@ -1,6 +1,6 @@
 # Ruthravarshan S - AI&DS (73772126145)   
 
-output will be shown on wiki page (click here)
+output will be shown on wiki page ([click here](https://github.com/cybermad7373/PPDA_OE_Assignment1/wiki/Output-of-the-Codes...))
 
 ## 1. Library Management System
 
