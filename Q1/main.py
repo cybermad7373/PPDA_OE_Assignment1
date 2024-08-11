@@ -4,16 +4,21 @@ if __name__ == "__main__":
     library = Library()
 
     # Adding Books
-    library.add_book("The Great Gatsby", "F. Scott Fitzgerald")
-    library.add_book("1984", "George Orwell")
+    library.add_book("Tolkāppiyam", "Tholkappiyar")
+    library.add_book("Cilappatikaram", "Ilango Adigal")
+    library.add_book("Sila Nerangalil sila Manithargal", "Jayakanthan")
+    library.add_book("Aram", "Jeyamohan")
+    library.add_book("Ponniyin Selvan", "Kalki")
+    library.add_book("Parthiban Kanavu", "Kalki")
 
     # Registering Users
-    library.register_user("Alice")
-    library.register_user("Bob")
+    library.register_user("Ruthra")
+    library.register_user("Ruthravarshan")
+    library.register_user("Varshan")
 
     # Borrowing Books
-    library.borrow_book("1", "1")  # Alice borrows "The Great Gatsby"
-    library.borrow_book("2", "2")  # Bob borrows "1984"
+    library.borrow_book("1", "1")  # Rutrha borrows "Tolkāppiyam"
+    library.borrow_book("2", "2")  # Ruthravarshan borrows "Cilappatikaram"
 
     # Returning Books
-    library.return_book("1", "1")  # Alice returns "The Great Gatsby"
+    library.return_book("1", "1")  # Rutrha returns "Tolkāppiyam"

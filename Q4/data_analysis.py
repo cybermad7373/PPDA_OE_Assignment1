@@ -33,12 +33,12 @@ def analyze_product_performance(orders, products):
     # Merge orders with products
     merged = pd.merge(orders, products, on='product_id')
 
-    # Calculate total sales per product
-    product_sales = merged.groupby('product_id').agg({'price': 'sum'})
+    # Calculate total sales per product using 'price_y' (from products)
+    product_sales = merged.groupby('product_id').agg({'price_y': 'sum'})
     product_sales = pd.merge(product_sales, products[['product_id', 'product_name']], on='product_id')
 
     # Group by product name and sum up sales
-    product_sales_summary = product_sales.groupby('product_name')['price'].sum().sort_values(ascending=False)
+    product_sales_summary = product_sales.groupby('product_name')['price_y'].sum().sort_values(ascending=False)
 
     # Display top 10 products by sales
     print("\nTop 10 Products by Sales:")
@@ -53,6 +53,8 @@ def analyze_product_performance(orders, products):
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
     plt.show()
+
+
 
 def analyze_sales_trends(orders):
     # Convert order_date to datetime
