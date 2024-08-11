@@ -19,11 +19,6 @@ The Library Management System is a simplified application that allows librarians
 - `users.csv`: Stores information about users (user ID, name, contact details).
 - `transactions.csv`: Stores borrowing and returning activities (transaction ID, user ID, book ID, borrow date, return date).
 
-### Usage:
-1. Clone the repository.
-2. Run `library_management_system.py`.
-3. Follow the on-screen prompts to perform operations.
-
 ---
 
 ## 2. Student Management System
@@ -42,11 +37,6 @@ The Student Management System is designed for a small educational institute to m
 - `courses.csv`: Stores information about courses (course ID, course name, instructor).
 - `grades.csv`: Stores grades for students (student ID, course ID, grade).
 
-### Usage:
-1. Clone the repository.
-2. Run `student_management_system.py`.
-3. Follow the on-screen prompts to manage student records.
-
 ---
 
 ## 3. Employee Management System
@@ -63,11 +53,6 @@ The Employee Management System is intended for a mid-sized company to manage emp
 ### Files Structure:
 - `employees.csv`: Stores information about employees (employee ID, name, department, job title, salary).
 - `performance.csv`: Stores performance metrics for employees (employee ID, performance score, bonus).
-
-### Usage:
-1. Clone the repository.
-2. Run `employee_management_system.py`.
-3. Follow the on-screen prompts to manage employee records.
 
 ---
 
@@ -89,11 +74,6 @@ The E-commerce Data Analyst project aims to help an e-commerce company understan
 - `products.csv`: Stores product information.
 - `reviews.csv`: Stores customer reviews and ratings.
 
-### Usage:
-1. Clone the repository.
-2. Run `ecommerce_data_analysis.py`.
-3. Analyze the results and insights generated.
-
 ---
 
 ## 5. Retail Chain Data Analyst
@@ -112,10 +92,6 @@ The Retail Chain Data Analyst project is designed to help a retail chain optimiz
 - `customer_data.csv`: Stores customer demographics and purchase history.
 - `product_data.csv`: Stores product information and availability.
 
-### Usage:
-1. Clone the repository.
-2. Run `retail_chain_data_analysis.py`.
-3. Use the insights to optimize business operations.
 
 ---
 
@@ -132,3 +108,8 @@ The Retail Chain Data Analyst project is designed to help a retail chain optimiz
 - **Contributing:**
   - Fork the repository and make changes.
   - Submit a pull request for review.
+  - 
+### Usage:
+1. Clone the repository.
+2. Run `main.py`.
+3. Use the insights to optimize business operations.
