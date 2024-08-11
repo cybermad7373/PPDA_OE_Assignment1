@@ -1,0 +1,1 @@
+{"1": {"employee_id": "1", "name": "Alice Johnson", "email": "alice.j@example.com", "job_title": "Senior Software Engineer", "base_salary": 70000, "performance_metrics": {"Project Success": 9.0}}, "2": {"employee_id": "2", "name": "Bob Smith", "email": "bob.s@example.com", "job_title": "Product Manager", "base_salary": 75000, "performance_metrics": {"Team Leadership": 8.5}}}
